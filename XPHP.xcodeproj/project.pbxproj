@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8222E74D1D50878700136665 /* XPHPSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8222E74C1D50878700136665 /* XPHPSetting.m */; };
+		825A70A21D4DED840072BD51 /* XPHPSettingPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 825A70A01D4DED840072BD51 /* XPHPSettingPanel.m */; };
+		825A70A31D4DED840072BD51 /* XPHPSettingPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 825A70A11D4DED840072BD51 /* XPHPSettingPanel.xib */; };
+		8297E6E91D46FAD500ED7B92 /* XPHP.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 8297E6E81D46FAD500ED7B92 /* XPHP.xcscheme */; };
+		8297E6EC1D46FAD500ED7B92 /* XPHP.m in Sources */ = {isa = PBXBuildFile; fileRef = 8297E6EB1D46FAD500ED7B92 /* XPHP.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8222E74B1D50878700136665 /* XPHPSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPHPSetting.h; sourceTree = "<group>"; };
+		8222E74C1D50878700136665 /* XPHPSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPHPSetting.m; sourceTree = "<group>"; };
+		825A709F1D4DED840072BD51 /* XPHPSettingPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPHPSettingPanel.h; sourceTree = "<group>"; };
+		825A70A01D4DED840072BD51 /* XPHPSettingPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPHPSettingPanel.m; sourceTree = "<group>"; };
+		825A70A11D4DED840072BD51 /* XPHPSettingPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPHPSettingPanel.xib; sourceTree = "<group>"; };
+		8297E6E41D46FAD500ED7B92 /* XPHP.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPHP.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8297E6E81D46FAD500ED7B92 /* XPHP.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = XPHP.xcscheme; path = XPHP.xcodeproj/xcshareddata/xcschemes/XPHP.xcscheme; sourceTree = SOURCE_ROOT; };
+		8297E6EA1D46FAD500ED7B92 /* XPHP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPHP.h; sourceTree = "<group>"; };
+		8297E6EB1D46FAD500ED7B92 /* XPHP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPHP.m; sourceTree = "<group>"; };
+		8297E6ED1D46FAD500ED7B92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		825A70931D4DEA880072BD51 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				8222E74B1D50878700136665 /* XPHPSetting.h */,
+				8222E74C1D50878700136665 /* XPHPSetting.m */,
+				825A709F1D4DED840072BD51 /* XPHPSettingPanel.h */,
+				825A70A01D4DED840072BD51 /* XPHPSettingPanel.m */,
+				825A70A11D4DED840072BD51 /* XPHPSettingPanel.xib */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		8297E6DC1D46FAD400ED7B92 = {
+			isa = PBXGroup;
+			children = (
+				8297E6E61D46FAD500ED7B92 /* XPHP */,
+				8297E6E51D46FAD500ED7B92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8297E6E51D46FAD500ED7B92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8297E6E41D46FAD500ED7B92 /* XPHP.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8297E6E61D46FAD500ED7B92 /* XPHP */ = {
+			isa = PBXGroup;
+			children = (
+				825A70931D4DEA880072BD51 /* Setting */,
+				8297E6EA1D46FAD500ED7B92 /* XPHP.h */,
+				8297E6EB1D46FAD500ED7B92 /* XPHP.m */,
+				8297E6ED1D46FAD500ED7B92 /* Info.plist */,
+				8297E6E71D46FAD500ED7B92 /* Supporting Files */,
+			);
+			path = XPHP;
+			sourceTree = "<group>";
+		};
+		8297E6E71D46FAD500ED7B92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8297E6E81D46FAD500ED7B92 /* XPHP.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8297E6E31D46FAD500ED7B92 /* XPHP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8297E6F01D46FAD500ED7B92 /* Build configuration list for PBXNativeTarget "XPHP" */;
+			buildPhases = (
+				8297E6E11D46FAD500ED7B92 /* Sources */,
+				8297E6E21D46FAD500ED7B92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPHP;
+			productName = XPHP;
+			productReference = 8297E6E41D46FAD500ED7B92 /* XPHP.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8297E6DD1D46FAD500ED7B92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = midoks;
+				TargetAttributes = {
+					8297E6E31D46FAD500ED7B92 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8297E6E01D46FAD500ED7B92 /* Build configuration list for PBXProject "XPHP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8297E6DC1D46FAD400ED7B92;
+			productRefGroup = 8297E6E51D46FAD500ED7B92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8297E6E31D46FAD500ED7B92 /* XPHP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8297E6E21D46FAD500ED7B92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825A70A31D4DED840072BD51 /* XPHPSettingPanel.xib in Resources */,
+				8297E6E91D46FAD500ED7B92 /* XPHP.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8297E6E11D46FAD500ED7B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825A70A21D4DED840072BD51 /* XPHPSettingPanel.m in Sources */,
+				8222E74D1D50878700136665 /* XPHPSetting.m in Sources */,
+				8297E6EC1D46FAD500ED7B92 /* XPHP.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8297E6EE1D46FAD500ED7B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8297E6EF1D46FAD500ED7B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8297E6F11D46FAD500ED7B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = XPHP/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.midoks.XPHP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		8297E6F21D46FAD500ED7B92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = XPHP/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.midoks.XPHP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8297E6E01D46FAD500ED7B92 /* Build configuration list for PBXProject "XPHP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8297E6EE1D46FAD500ED7B92 /* Debug */,
+				8297E6EF1D46FAD500ED7B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8297E6F01D46FAD500ED7B92 /* Build configuration list for PBXNativeTarget "XPHP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8297E6F11D46FAD500ED7B92 /* Debug */,
+				8297E6F21D46FAD500ED7B92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8297E6DD1D46FAD500ED7B92 /* Project object */;
+}

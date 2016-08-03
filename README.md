@@ -5,9 +5,9 @@ XPHP is a plugin for xcode, This Plugin is just for PHP debug, Oh, strange.
 - Xcode7
 
 ## Install
-
+```
 curl -fsSL  https://raw.githubusercontent.com/midoks/XPHP/master/Scripts/install.sh | sh
-
+```
 
 ## Unstall
 

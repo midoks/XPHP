@@ -1,8 +1,6 @@
 ## XPHP
 XPHP is a plugin for xcode, This Plugin is just for PHP debug, Oh, strange.
 
-## instro
-
 ## Support Xcode Versions
 - Xcode7
 
